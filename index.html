@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Protótipo de portfólio digital acadêmico.">
+  <title>Pedro Akira | Portfólio Digital</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="logo" href="#inicio">Pedro Akira</a>
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button"
+          aria-label="Ativar modo noturno" aria-pressed="false" title="Ativar modo noturno">
+          <span class="theme-icon" aria-hidden="true">☾</span>
+        </button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      </div>
+      <ul class="nav-list" id="navList">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#curriculo">Currículo</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="inicio">
+      <div class="hero-text">
+        <span class="eyebrow">PORTFÓLIO DIGITAL</span>
+        <h1>Olá, eu sou <span>Pedro Akira.</span></h1>
+        <p>
+          Estudante de Sistemas para Internet, reunindo projetos acadêmicos,
+          experiências práticas e competências desenvolvidas durante a graduação.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projetos">Ver projetos</a>
+          <a class="button secondary" href="#contato">Entre em contato</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Resumo profissional">
+        <div class="avatar">PA</div>
+        <h2>Sistemas para Internet</h2>
+        <p>Desenvolvimento web • Banco de dados • UI/UX</p>
+      </div>
+    </section>
+
+    <section class="section" id="sobre">
+      <div class="container two-columns">
+        <div>
+          <span class="section-label">01 — SOBRE</span>
+          <h2>Minha trajetória</h2>
+        </div>
+        <div>
+          <p>
+            Este portfólio foi planejado para apresentar minha formação,
+            meus projetos e as tecnologias estudadas ao longo da graduação.
+            A proposta prioriza clareza, organização e uma navegação simples.
+          </p>
+          <p>
+            O projeto foi pensado como uma ponte entre o ambiente acadêmico
+            e o mercado de trabalho, permitindo visualizar a evolução dos
+            conhecimentos adquiridos em diferentes semestres.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="projetos">
+      <div class="container">
+        <span class="section-label">02 — PROJETOS</span>
+        <h2>Projetos acadêmicos</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <span>1º semestre</span>
+            <h3>Mirror Fashion</h3>
+            <p>Website desenvolvido com HTML e CSS, explorando estrutura, apresentação e fundamentos do desenvolvimento web.</p>
+            <a href="#contato">Ver projeto →</a>
+          </article>
+
+          <article class="project-card">
+            <span>2º semestre</span>
+            <h3>Portfólio digital</h3>
+            <p>Projeto voltado à organização de conteúdo, arquitetura da informação, HTML semântico e design responsivo.</p>
+            <a href="#contato">Ver projeto →</a>
+          </article>
+
+          <article class="project-card">
+            <span>3º semestre</span>
+            <h3>Banco de dados</h3>
+            <p>Modelagem relacional de um sistema de pedidos para uma pizzaria utilizando MySQL Workbench.</p>
+            <a href="#contato">Ver projeto →</a>
+          </article>
+
+          <article class="project-card">
+            <span>4º semestre</span>
+            <h3>Implementação SQL</h3>
+            <p>Implementação física do banco de dados com SQL, tabelas, chaves primárias e chaves estrangeiras.</p>
+            <a href="#contato">Ver projeto →</a>
+          </article>
+
+          <article class="project-card">
+            <span>5º semestre</span>
+            <h3>Protótipo de alta fidelidade</h3>
+            <p>Prototipação do portfólio no Figma, com foco em UI, UX, hierarquia visual, navegação e clareza.</p>
+            <a href="#contato">Ver projeto →</a>
+          </article>
+
+          <article class="project-card highlight">
+            <span>Portfólio</span>
+            <h3>Minha evolução</h3>
+            <p>Reunião dos projetos e competências para apresentar a trajetória acadêmica de forma visual e profissional.</p>
+            <a href="#habilidades">Conhecer habilidades →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="habilidades">
+      <div class="container">
+        <span class="section-label">03 — HABILIDADES</span>
+        <h2>Tecnologias e competências</h2>
+        <div class="skills">
+          <div class="skill">HTML5</div>
+          <div class="skill">CSS3</div>
+          <div class="skill">JavaScript</div>
+          <div class="skill">PHP</div>
+          <div class="skill">Laravel</div>
+          <div class="skill">MySQL</div>
+          <div class="skill">Figma</div>
+          <div class="skill">UI / UX</div>
+          <div class="skill">Design responsivo</div>
+          <div class="skill">Acessibilidade</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="curriculo">
+      <div class="container curriculum">
+        <div>
+          <span class="section-label">04 — CURRÍCULO</span>
+          <h2>Conheça minha trajetória profissional</h2>
+          <p>
+            A seção de currículo foi planejada para permitir o acesso rápido
+            às informações profissionais do autor.
+          </p>
+        </div>
+        <a class="button primary" href="#" onclick="alert('Substitua este link pelo arquivo PDF do seu currículo.'); return false;">
+          Baixe aqui (.pdf)
+        </a>
+      </div>
+    </section>
+
+    <section class="section contact" id="contato">
+      <div class="container">
+        <span class="section-label">05 — CONTATO</span>
+        <h2>Vamos conversar?</h2>
+        <p>Substitua os campos abaixo pelos seus dados reais no projeto final.</p>
+        <div class="contact-grid">
+          <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a>
+          <a href="#" onclick="return false;">LinkedIn</a>
+          <a href="#" onclick="return false;">GitHub</a>
+          <a href="#" onclick="return false;">Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Pedro Akira — Portfólio Digital</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
